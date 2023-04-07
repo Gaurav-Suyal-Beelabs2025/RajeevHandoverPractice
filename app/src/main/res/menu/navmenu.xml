@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:id="@+id/home_fragement"
+        android:icon="@drawable/vector__8_"
+        android:title="home"/>
+
+    <item android:id="@+id/Earnings_fragment"
+          android:icon="@drawable/vector__9_"
+           android:title="Earnings"/>
+
+      <item android:id="@+id/payout_fragement"
+             android:icon="@drawable/vector__10_"
+          android:title="Payout"/>
+
+      <item android:id="@+id/support_fragement"
+            android:icon="@drawable/vector__11_"
+            android:title="Support"/>
+
+
+
+</menu>

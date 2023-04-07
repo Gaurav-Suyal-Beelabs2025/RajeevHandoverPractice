@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/home_fragement">
+
+    <fragment
+        android:id="@+id/Earnings_fragment"
+        android:name="com.example.handhoverpractice.EarningsFragment"
+        android:label="earnings"
+        tools:layout="@layout/fragment_earnings" />
+    <fragment
+        android:id="@+id/payout_fragement"
+        android:name="com.example.handhoverpractice.PayoutFragment"
+        android:label="payout"
+        tools:layout="@layout/fragment_payout" />
+    <fragment
+        android:id="@+id/support_fragement"
+        android:name="com.example.handhoverpractice.SupportFragment"
+        android:label="support"
+        tools:layout="@layout/fragment_support" />
+
+   <fragment android:name="com.example.handhoverpractice.HomeFragment"
+             android:id="@+id/home_fragement"
+             android:label="home"
+             tools:layout="@layout/fragment_home">
+       <action
+           android:id="@+id/action_home_fragement_to_profileFragment"
+           app:destination="@id/profileFragment" />
+   </fragment>
+
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.handhoverpractice.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_profileFragment_to_documentdetailsFragment"
+            app:destination="@id/documentdetailsFragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_profileidcardFragment"
+            app:destination="@id/profileidcardFragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_languagesettingFragment"
+            app:destination="@id/languagesettingFragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_myperformanceFragment"
+            app:destination="@id/myperformanceFragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_vehicleDetailsFragment2"
+            app:destination="@id/vehicleDetailsFragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_yourserviceFragment2"
+            app:destination="@id/yourserviceFragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_workig_modeFragment"
+            app:destination="@id/workig_modeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/documentdetailsFragment"
+        android:name="com.example.handhoverpractice.DocumentdetailsFragment"
+        android:label="fragment_documentdetails"
+        tools:layout="@layout/fragment_documentdetails" >
+        <action
+            android:id="@+id/action_documentdetailsFragment_to_drivingLicenceVerificationFragment"
+            app:destination="@id/drivingLicenceVerificationFragment" />
+        <action
+            android:id="@+id/action_documentdetailsFragment_to_PANVerificationFragment"
+            app:destination="@id/PANVerificationFragment" />
+
+        <action
+            android:id="@+id/action_documentdetailsFragment_to_rcVerificationFragment"
+            app:destination="@id/rcVerificationFragment" />
+        <action
+            android:id="@+id/action_documentdetailsFragment_to_aadharVerificationFragment2"
+            app:destination="@id/aadharVerificationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/languagesettingFragment"
+        android:name="com.example.handhoverpractice.LanguagesettingFragment"
+        android:label="fragment_languagesetting"
+        tools:layout="@layout/fragment_languagesetting" >
+        <action
+            android:id="@+id/action_languagesettingFragment_to_notificationlanguageFragment"
+            app:destination="@id/notificationlanguageFragment" />
+        <action
+            android:id="@+id/action_languagesettingFragment_to_applanguageFragment"
+            app:destination="@id/applanguageFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/profileidcardFragment"
+        android:name="com.example.handhoverpractice.ProfileidcardFragment"
+        android:label="fragment_profileidcard"
+        tools:layout="@layout/fragment_profileidcard" />
+    <fragment
+        android:id="@+id/myperformanceFragment"
+        android:name="com.example.handhoverpractice.MyperformanceFragment"
+        android:label="fragment_myperformance"
+        tools:layout="@layout/fragment_myperformance" />
+    <fragment
+        android:id="@+id/vehicleDetailsFragment"
+        android:name="com.example.handhoverpractice.VehicleDetailsFragment"
+        android:label="fragment_vehicle_details"
+        tools:layout="@layout/fragment_vehicle_details" />
+    <fragment
+        android:id="@+id/yourserviceFragment"
+        android:name="com.example.handhoverpractice.YourserviceFragment"
+        android:label="fragment_yourservice"
+        tools:layout="@layout/fragment_yourservice" />
+    <fragment
+        android:id="@+id/applanguageFragment"
+        android:name="com.example.handhoverpractice.ApplanguageFragment"
+        android:label="fragment_applanguage"
+        tools:layout="@layout/fragment_applanguage" />
+    <fragment
+        android:id="@+id/notificationlanguageFragment"
+        android:name="com.example.handhoverpractice.NotificationlanguageFragment"
+        android:label="fragment_notificationlanguage"
+        tools:layout="@layout/fragment_notificationlanguage" />
+    <fragment
+        android:id="@+id/aadharVerificationFragment"
+        android:name="com.example.handhoverpractice.AadharVerificationFragment"
+        android:label="fragment_aadhar_verification"
+        tools:layout="@layout/fragment_aadhar_verification" />
+    <fragment
+        android:id="@+id/drivingLicenceVerificationFragment"
+        android:name="com.example.handhoverpractice.DrivingLicenceVerificationFragment"
+        android:label="fragment_driving_licence_verification"
+        tools:layout="@layout/fragment_driving_licence_verification" />
+    <fragment
+        android:id="@+id/PANVerificationFragment"
+        android:name="com.example.handhoverpractice.PANVerificationFragment"
+        android:label="fragment_p_a_n_verification"
+        tools:layout="@layout/fragment_p_a_n_verification" />
+    <fragment
+        android:id="@+id/rcVerificationFragment"
+        android:name="com.example.handhoverpractice.RcVerificationFragment"
+        android:label="fragment_rc_verification"
+        tools:layout="@layout/fragment_rc_verification" />
+    <fragment
+        android:id="@+id/splashscreenFragment"
+        android:name="com.example.handhoverpractice.SplashscreenFragment"
+        android:label="fragment_splashscreen"
+        tools:layout="@layout/fragment_splashscreen" >
+        <action
+            android:id="@+id/action_splashscreenFragment_to_mobileverificationFragment"
+            app:destination="@id/mobileverificationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mobileverificationFragment"
+        android:name="com.example.handhoverpractice.MobileverificationFragment"
+        android:label="fragment_mobileverification"
+        tools:layout="@layout/fragment_mobileverification" >
+
+    </fragment>
+    <fragment
+        android:id="@+id/workig_modeFragment"
+        android:name="com.example.handhoverpractice.Workig_modeFragment"
+        android:label="fragment_workig_mode"
+        tools:layout="@layout/fragment_workig_mode" />
+
+
+</navigation>

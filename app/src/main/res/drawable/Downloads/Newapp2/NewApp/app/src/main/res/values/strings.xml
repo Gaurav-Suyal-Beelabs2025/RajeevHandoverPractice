@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">NewApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="Message">
+
+        Thinking of a caption that matches the vibe of the picture and reads interesting at the same time is no joke.
+        We all struggle with it. Sometimes we want to be poetic and sometimes really quirky. And, the rest of the time,
+        we just want to be ourselves.
+
+    </string>
+</resources>

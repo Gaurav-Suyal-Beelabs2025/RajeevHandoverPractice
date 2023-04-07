@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ApplanguageFragment">
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout_applanguage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="10dp"
+        android:background="@color/white"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/img_arrowback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="21dp"
+            android:layout_marginStart="15dp"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginBottom="23dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:src="@drawable/group_33831"/>
+
+        <TextView
+            android:id="@+id/txt_applanguage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="App Language"
+            android:textStyle="bold"
+            android:textColor="@color/blacks"
+            android:textSize="24sp"
+            android:textAllCaps="false"
+            android:layout_marginStart="10.65dp"
+            app:layout_constraintTop_toTopOf="@+id/img_arrowback"
+            app:layout_constraintBottom_toBottomOf="@id/img_arrowback"
+            app:layout_constraintStart_toEndOf="@id/img_arrowback"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+       <androidx.constraintlayout.widget.ConstraintLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           app:layout_constraintTop_toBottomOf="@id/constraintLayout_applanguage">
+
+
+
+          <TextView
+              android:id="@+id/txt_selectlanguage"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Select Language"
+              android:textStyle="bold"
+              android:textSize="20sp"
+              android:textAllCaps="false"
+              android:textColor="@color/black"
+              android:layout_marginTop="19dp"
+              android:layout_marginStart="23dp"
+              app:layout_constraintTop_toTopOf="parent"
+              app:layout_constraintStart_toStartOf="parent"/>
+
+             <TextView
+                 android:id="@+id/txt_english"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="English"
+                 android:textColor="#FA713F"
+                 android:textAllCaps="false"
+                 android:textSize="16sp"
+                 android:textStyle="bold"
+                 android:layout_marginTop="31dp"
+                 app:layout_constraintStart_toStartOf="@id/txt_selectlanguage"
+                 app:layout_constraintTop_toBottomOf="@id/txt_selectlanguage"/>
+
+
+             <CheckBox
+                 android:id="@+id/checkbox_english"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 app:layout_constraintEnd_toEndOf="parent"
+                 android:layout_marginEnd="19dp"
+                 app:layout_constraintTop_toTopOf="@id/txt_english"
+                 app:layout_constraintBottom_toBottomOf="@id/txt_english"/>
+
+
+             <View
+                 android:id="@+id/view_applanguage"
+                 android:layout_width="match_parent"
+                 android:layout_height="1dp"
+                 android:background="#F1F1F1"
+                 android:layout_marginTop="18dp"
+                 android:layout_marginHorizontal="20dp"
+                 app:layout_constraintTop_toBottomOf="@id/txt_english"/>
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Date Wise"
+                   android:textStyle="bold"
+                   android:textSize="16sp"
+                   android:textAllCaps="false"
+                   android:textColor="#686868"
+                   app:layout_constraintTop_toBottomOf="@id/view_applanguage"
+                   android:layout_marginTop="18dp"
+                   app:layout_constraintStart_toStartOf="@id/txt_english"/>
+
+             <CheckBox
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 app:layout_constraintTop_toBottomOf="@id/view_applanguage"
+                 app:layout_constraintStart_toStartOf="@id/checkbox_english"/>
+
+
+       </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <ImageView
+            android:id="@+id/img_error"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/group"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="168dp"
+            android:layout_marginStart="24dp"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+         <TextView
+             android:id="@+id/txt_note"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Note: The change you apply here are for \nyour Handover app language"
+             android:textAllCaps="false"
+             android:textSize="14sp"
+             android:textStyle="bold"
+             android:textColor="#686868"
+             android:layout_marginStart="12dp"
+             app:layout_constraintTop_toTopOf="@id/img_error"
+             app:layout_constraintStart_toEndOf="@id/img_error"/>
+
+             <androidx.constraintlayout.widget.ConstraintLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:orientation="horizontal"
+                  android:layout_margin="25dp"
+                 android:layout_marginTop="21dp"
+                 app:layout_constraintTop_toBottomOf="@id/txt_note">
+
+
+                 <androidx.appcompat.widget.AppCompatButton
+                     android:id="@+id/buttom_reset"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:background="@drawable/resetbutton"
+                     android:paddingHorizontal="45dp"
+                     android:text="Reset "
+                     android:textAllCaps="false"
+                     android:textColor="#000000"
+                     android:textSize="20sp"
+                     android:textStyle="bold"
+                     app:layout_constraintEnd_toStartOf="@+id/appCompatButton"
+                     app:layout_constraintStart_toStartOf="parent"
+
+                     app:layout_constraintTop_toTopOf="parent" />
+
+                 <androidx.appcompat.widget.AppCompatButton
+                     android:id="@+id/appCompatButton"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:background="@drawable/gettingstart"
+                     android:paddingHorizontal="45dp"
+                     android:text="Apply"
+                     android:textAllCaps="false"
+                     android:textColor="@color/white"
+                     android:textSize="20sp"
+                     android:textStyle="bold"
+                     app:layout_constraintBottom_toBottomOf="@id/buttom_reset"
+                     app:layout_constraintEnd_toEndOf="parent"
+                     app:layout_constraintTop_toTopOf="@id/buttom_reset" />
+
+
+             </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+

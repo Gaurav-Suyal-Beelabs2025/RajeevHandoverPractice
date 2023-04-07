@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".LanguagesettingFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout_languagesetting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="10dp"
+        android:background="@color/white"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/img_arrowback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="21dp"
+            android:layout_marginStart="15dp"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginBottom="23dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:src="@drawable/group_33831"/>
+
+        <TextView
+            android:id="@+id/txt_liveorder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Language Settings"
+            android:textStyle="bold"
+            android:textColor="@color/blacks"
+            android:textSize="24sp"
+            android:textAllCaps="false"
+            android:layout_marginStart="10.65dp"
+            app:layout_constraintTop_toTopOf="@+id/img_arrowback"
+            app:layout_constraintBottom_toBottomOf="@id/img_arrowback"
+            app:layout_constraintStart_toEndOf="@id/img_arrowback"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout_applanguage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        app:layout_constraintTop_toBottomOf="@id/constraintLayout_languagesetting">
+
+        <ImageView
+            android:id="@+id/img_applanguage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/group_34084"
+            android:padding="10dp"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="13dp"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="15dp"
+            android:background="@drawable/handoveridcard" />
+
+        <TextView
+            android:id="@+id/txt_applanguage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="App Language"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:textColor="@color/black"
+            android:textAllCaps="false"
+            android:layout_marginStart="20dp"
+            app:layout_constraintTop_toTopOf="@id/img_applanguage"
+            app:layout_constraintStart_toEndOf="@id/img_applanguage"/>
+
+              <TextView
+                  android:id="@+id/txt_seethelanguage"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Set the language for your app"
+                  android:textColor="#686868"
+                  android:textAllCaps="false"
+                  android:textSize="14sp"
+                  android:textStyle="bold"
+                  app:layout_constraintBottom_toBottomOf="@id/img_applanguage"
+                  app:layout_constraintStart_toStartOf="@id/txt_applanguage"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/group_33832"
+            app:layout_constraintTop_toTopOf="@id/txt_applanguage"
+            app:layout_constraintBottom_toBottomOf="@id/txt_seethelanguage"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="23dp"/>
+
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="#F1F1F1"
+            android:layout_marginTop="15dp"
+            app:layout_constraintTop_toBottomOf="@+id/txt_seethelanguage"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="75dp"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout_notificationlanuage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        app:layout_constraintTop_toBottomOf="@id/constraintLayout_applanguage">
+
+        <ImageView
+            android:id="@+id/img_notification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/group_34081"
+            android:padding="10dp"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="13dp"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="15dp"
+            android:background="@drawable/handoveridcard" />
+
+        <TextView
+            android:id="@+id/txt_notificationlanguage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Notification Language"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:textColor="@color/black"
+            android:textAllCaps="false"
+            android:layout_marginStart="20dp"
+            app:layout_constraintTop_toTopOf="@id/img_notification"
+            app:layout_constraintStart_toEndOf="@id/img_notification"/>
+
+        <TextView
+            android:id="@+id/txt_seethelanguagenotification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Set the language for your app"
+            android:textColor="#686868"
+            android:textAllCaps="false"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@id/img_notification"
+            app:layout_constraintStart_toStartOf="@id/txt_notificationlanguage"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/group_33832"
+            app:layout_constraintTop_toTopOf="@id/txt_notificationlanguage"
+            app:layout_constraintBottom_toBottomOf="@id/txt_seethelanguagenotification"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="23dp"/>
+
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="#F1F1F1"
+            android:layout_marginTop="15dp"
+            app:layout_constraintTop_toBottomOf="@+id/txt_seethelanguagenotification"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="75dp"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

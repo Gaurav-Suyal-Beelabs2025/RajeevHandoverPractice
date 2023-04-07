@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MatchFragment"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:id="@+id/circle_img"
+            android:src="@drawable/photo6"
+            android:layout_margin="12dp"
+            android:clickable="true"
+            android:layout_marginTop="10dp"
+            android:contextClickable="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Match"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:textColor="@color/teal_700"
+            android:layout_toRightOf="@id/circle_img"
+            android:layout_margin="12dp"
+            android:id="@+id/textMatch"
+            android:layout_gravity="center"/>
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="1dp"
+            android:layout_below="@id/textMatch"
+            android:background="@color/black"
+            android:layout_marginLeft="85dp" />
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:id="@+id/recycleViewMatchFragment"
+        tools:listitem="@layout/itemlayout">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+
+
+</LinearLayout>

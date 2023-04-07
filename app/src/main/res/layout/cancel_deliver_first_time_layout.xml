@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+
+
+
+        <ImageView
+            android:id="@+id/img_scooter"
+            android:layout_width="74dp"
+            android:layout_height="74dp"
+            android:src="@drawable/group_34058"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="@dimen/_35sdp"/>
+
+        <TextView
+            android:id="@+id/txt_are_you_sure"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Are you sure you want to cancel?"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:layout_marginTop="@dimen/_9sdp"
+            app:layout_constraintTop_toBottomOf="@id/img_scooter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <TextView
+            android:id="@+id/txt_holdon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            android:textAllCaps="false"
+            android:gravity="center"
+            android:fontFamily="@font/poppins_reg"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:text="Hold on for some time the the rider is \njust around the corner."
+            app:layout_constraintStart_toStartOf="@id/txt_are_you_sure"
+            app:layout_constraintTop_toBottomOf="@id/txt_are_you_sure"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/_28sdp"
+            android:layout_marginHorizontal="@dimen/_15sdp"
+            app:layout_constraintTop_toBottomOf="@id/txt_holdon">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/cancelbtnNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/no_yes_button"
+                android:text="No"
+                android:textAlignment="center"
+                android:padding="@dimen/_12sdp"
+                android:gravity="center"
+                android:fontFamily="@font/poppins_reg"
+                android:layout_marginEnd="@dimen/_7sdp"
+                android:layout_weight="1"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/cancelBtnYes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/yes_button"
+                android:textAllCaps="false"
+                android:textColor="#969696"
+                android:textSize="14sp"
+                android:fontFamily="@font/poppins_reg"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:padding="@dimen/_12sdp"
+                android:layout_weight="1"
+                android:text="Yes"
+                android:textStyle="bold"
+                android:layout_marginStart="@dimen/_7sdp"
+                />
+
+        </LinearLayout>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>

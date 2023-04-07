@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/drawable-v24/entar_a_number.xml" value="0.236" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/drawable/adharverification_ic.xml" value="0.243" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/drawable/border.xml" value="0.243" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/drawable/group_34102.xml" value="0.243" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/drawable/ic_approved.xml" value="0.243" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/drawable/ic_share.xml" value="0.243" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/drawable/logo_background.xml" value="0.243" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/drawable/uddatenew.xml" value="0.243" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/font/inter_bold.xml" value="0.28020833333333334" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/font/inter_semibold.xml" value="0.2791666666666667" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/activity_business.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/address_stmt_list_item.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/address_update_dialogue.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/after_pickup_cancellation_confirmation_layout.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/authentication_alert_dialogue.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/banner_image_item.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/bottom_sheet_dialog_ui.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/business_addressupdate.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/business_location.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/cancel_deliver_first_time_layout.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/cancle_layout.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/collect_payment_layout.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/custom_error_business_ui.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/custom_no_location_ui.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/custom_snackbar.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/custom_state_drop_down.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/custom_toast_business_ui.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/deliever_handover_ui.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/delivery_list_item.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/drop_down_item.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/drop_down_text_view_layout.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/error_404_layout.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/faq_recycler_item.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/first_time_delivery.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/food_delivery_ui.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/fragment_aadhar_verification.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/fragment_add_blank_cheque.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/fragment_applanguage.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/fragment_blank_details.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/fragment_booking_riders.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/fragment_business_details.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/fragment_business_mobile_verify.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/fragment_business_profile.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/fragment_cancellation_reason.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/fragment_dashborad_ui.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/fragment_dashborad_ui_new.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/fragment_documentdetails.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/fragment_driving_licence_verification.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/fragment_dummy.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/fragment_earnings.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/fragment_enterr_otp.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/fragment_f_a_q_s.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/fragment_fare_details.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/fragment_g_s_t_details.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/fragment_home2.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/fragment_home_business.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/fragment_homescreen.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/fragment_homescreen3.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/fragment_languagesetting.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/fragment_map_tracking.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/fragment_mobile_otp.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/fragment_mobileverification.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/fragment_myperformance.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/fragment_no_network.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/fragment_notification.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/fragment_notificationlanguage.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/fragment_order_list.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/fragment_p_a_n_verification.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/fragment_payout.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/fragment_profile.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/fragment_profileidcard.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/fragment_rc_verification.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/fragment_recharge_details.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/fragment_rider_details.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/fragment_rider_waiting.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/fragment_selection_of_state.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/fragment_settings.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/fragment_splashscreen.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/fragment_support.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/fragment_upload_bank_cheque.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/fragment_vehicle_details.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/fragment_verify_blank.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/fragment_verify_business_pan.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/fragment_wallet.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/fragment_wallet_passbook.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/fragment_wallet_recharge_history.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/fragment_web_view.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/fragment_workig_mode.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/fragment_yourservice.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/group_34102.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/handover_wallet_ui.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/i_pop_up.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/insentive_itamlist.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/menu_item_layout.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/nav_header_layout.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/new_loader.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/no_internet_bottom_sheet.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/notification_item.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/order_details_item_layout.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/order_item_layout.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/order_item_layout_new.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/owner_detail_fragment.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/places_autocomplete_item.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/receiver_location_ui.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/recharge.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/recharge_history_recycler_item.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/rider_track_layout.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/search_address_widget.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/search_receiver_address_ui.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/transaction_itamlist.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/ui_banners.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/Downloads/HandhoverPractice/HandhoverPractice/app/src/main/res/layout/wallet_history_layout.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

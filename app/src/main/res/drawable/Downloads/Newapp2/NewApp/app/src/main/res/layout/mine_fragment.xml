@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MineFragment"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="@drawable/cardviewdegine"
+        android:layout_marginTop="70dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="My Room"
+            android:textSize="17dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:id="@+id/circle_img"
+            android:src="@drawable/home_24"
+            android:layout_marginLeft="50dp"
+            android:clickable="true"
+            android:tint="@color/teal_700"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:contextClickable="true"
+            android:background="@drawable/imageview"
+            />
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="20dp"
+        app:cardElevation="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="90dp"
+                android:src="@drawable/photo6"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="KoshKosh"
+                    android:textSize="18dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="50dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="others"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="#035E5D"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="20dp"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="#035E5D"
+                android:layout_gravity="center"
+                android:layout_marginLeft="70dp"
+                />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycleView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:scrollbars="vertical"
+        tools:listitem="@layout/item_activity" />
+
+</LinearLayout>

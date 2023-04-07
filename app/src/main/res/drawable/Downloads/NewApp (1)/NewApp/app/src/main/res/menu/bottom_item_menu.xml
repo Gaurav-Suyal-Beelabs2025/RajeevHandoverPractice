@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title=""
+        android:icon="@drawable/surround_sound_"
+        android:id="@+id/surround_sound_icon"/>
+    <item android:title=""
+        android:icon="@drawable/video_library"
+        android:id="@+id/video_icon"/>
+    <item android:title=""
+        android:icon="@drawable/control_point"
+        android:id="@+id/matches_icon"/>
+    <item android:title=""
+        android:icon="@drawable/message"
+        android:id="@+id/message_icon"/>
+    <item android:title=""
+        android:icon="@drawable/person"
+        android:id="@+id/person_icon"/>
+</menu>

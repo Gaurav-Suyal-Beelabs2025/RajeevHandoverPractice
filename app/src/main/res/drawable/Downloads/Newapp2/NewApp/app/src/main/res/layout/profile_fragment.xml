@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ProfileFragment"
+    android:orientation="vertical">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+                android:layout_marginBottom="50dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+          <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#076C6B">
+        </RelativeLayout>
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/circle_img1"
+            android:src="@drawable/photo6"
+            android:layout_marginTop="50dp"
+            android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Emma Buffat"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_marginTop="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID:123456"
+            android:layout_gravity="center"
+            android:textColor="#9C9898"
+            android:textSize="13dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.5dp"
+            android:background="#8F8A8A"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="6">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="50"
+                    android:layout_weight="2.5"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="40dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="50"
+                    android:layout_weight="2.5"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="15dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="50"
+                    android:layout_weight="1"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="15dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="6"
+            android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Followers"
+                    android:textColor="#AFABAB"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="2.5"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fans"
+                    android:textColor="#AFABAB"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="2.5"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Followings"
+                    android:textColor="#AFABAB"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#CFCCCC"/>
+
+        <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Message"
+           android:textStyle="bold"
+           android:drawableStart="@drawable/message_24"
+           android:textColor="@color/black"
+           android:textSize="15dp"
+           android:layout_marginLeft="30dp"
+           android:layout_marginTop="10dp"
+           android:layout_marginBottom="20dp"
+           android:drawablePadding="10dp" />
+        <View
+          android:layout_width="match_parent"
+          android:layout_height="1dp"
+          android:background="#CFCCCC"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Top Gift"
+            android:textStyle="bold"
+            android:drawableStart="@drawable/user_group"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:drawablePadding="10dp"/>
+                    <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#CFCCCC"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My Wallet"
+            android:textStyle="bold"
+            android:drawableStart="@drawable/wallet"
+            android:drawableTint="#048073"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:drawablePadding="10dp"
+            /><View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#CFCCCC"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Share to get Coins"
+            android:textStyle="bold"
+            android:drawableStart="@drawable/share"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:drawablePadding="10dp"
+            /><View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#CFCCCC"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID Level"
+            android:textStyle="bold"
+            android:drawableStart="@drawable/promotions"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:drawablePadding="10dp"
+            /><View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#CFCCCC"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:drawableStart="@drawable/ic_baseline_card_giftcard_24"
+            android:drawablePadding="10dp"
+            android:drawableTint="#048073"
+            android:text="Special card"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold" /><View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#CFCCCC"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Store"
+            android:textStyle="bold"
+            android:drawableStart="@drawable/ic_baseline_storefront_24"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:drawableTint="#048073"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:drawablePadding="10dp"
+            /><View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="#CFCCCC"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My Props"
+            android:textStyle="bold"
+            android:drawableStart="@drawable/star"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:drawableTint="#048073"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:drawablePadding="10dp"
+            /><View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="#CFCCCC"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="VIP"
+            android:textStyle="bold"
+            android:drawableStart="@drawable/flowers"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:drawableTint="#048073"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:drawablePadding="10dp"
+            /><View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="#CFCCCC"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Family"
+            android:textStyle="bold"
+            android:drawableStart="@drawable/user_group"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:drawableTint="#048073"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:drawablePadding="10dp"
+            /><View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="#CFCCCC"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medal"
+            android:textStyle="bold"
+            android:drawableStart="@drawable/medalicon"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:drawableTint="#048073"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:drawablePadding="10dp"
+            /><View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="#CFCCCC"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Setting"
+            android:textStyle="bold"
+            android:drawableStart="@drawable/ic_baseline_settings_24"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:drawableTint="#048073"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:drawablePadding="10dp"
+            /><View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="#CFCCCC"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:textStyle="bold"
+            android:drawableStart="@drawable/ic_baseline_logout_24"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:drawableTint="#048073"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:drawablePadding="10dp"
+            />
+
+                </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

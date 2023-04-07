@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".HomeFragment">
+
+
+   <androidx.constraintlayout.widget.ConstraintLayout
+       android:id="@+id/constraintLayout"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       app:layout_constraintTop_toTopOf="parent">
+
+
+      <ImageView
+          android:id="@+id/img_notification"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="15dp"
+          android:layout_marginTop="16dp"
+          android:background="@drawable/cancellation"
+          android:padding="8dp"
+          android:src="@drawable/ic_baseline_notifications_24"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent" />
+
+
+      <Switch
+          android:id="@+id/awitch_onduty"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:paddingHorizontal="10dp"
+          android:text="on duty"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="@id/img_notification" />
+
+      <ImageView
+          android:id="@+id/img_profile"
+          android:layout_width="39dp"
+          android:layout_height="39dp"
+          android:layout_marginEnd="21dp"
+          android:background="@drawable/cancellation"
+          android:padding="10dp"
+          android:paddingHorizontal="10dp"
+          android:src="@drawable/group_34031"
+          app:layout_constraintBottom_toBottomOf="@id/img_notification"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintTop_toTopOf="@id/img_notification" />
+
+      <TextView
+          android:id="@+id/txt_ActiveTime"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="59dp"
+          android:layout_marginTop="5dp"
+          android:layout_marginBottom="11dp"
+          android:text="Active Time"
+          android:textAllCaps="false"
+          android:textColor="@color/black"
+          android:textSize="12sp"
+          android:textStyle="bold"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintStart_toEndOf="@+id/img_notification"
+          app:layout_constraintTop_toBottomOf="@id/awitch_onduty" />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="3dp"
+          android:text="2hrs 16min"
+          android:textAllCaps="false"
+          android:textColor="#0F6FB5"
+          android:textSize="12sp"
+          android:textStyle="bold"
+
+          app:layout_constraintBottom_toBottomOf="@id/txt_ActiveTime"
+          app:layout_constraintStart_toEndOf="@id/txt_ActiveTime"
+          app:layout_constraintTop_toTopOf="@id/txt_ActiveTime" />
+
+   </androidx.constraintlayout.widget.ConstraintLayout>
+
+   <androidx.constraintlayout.widget.ConstraintLayout
+       android:id="@+id/constraintLayout_scooter"
+       android:layout_width="match_parent"
+       android:layout_height="58dp"
+       android:background="#0F6FB5"
+       app:layout_constraintTop_toBottomOf="@+id/constraintLayout">
+
+      <ImageView
+          android:id="@+id/img_scooter"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:src="@drawable/scooter_delevry"
+          android:padding="12dp"
+          android:layout_marginStart="16dp"
+          android:layout_marginTop="8dp"
+          app:layout_constraintTop_toTopOf="parent"
+          app:layout_constraintStart_toStartOf="parent"
+          android:background="@drawable/livedelevery_scooter"/>
+
+           <TextView
+               android:id="@+id/txt_liveDelivery"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+              android:text="Live Delivery"
+              android:textStyle="bold"
+              android:textSize="12sp"
+              android:textColor="@color/white"
+              android:textAllCaps="false"
+               app:layout_constraintTop_toTopOf="@id/img_scooter"
+               app:layout_constraintStart_toEndOf="@id/img_scooter"
+               android:layout_marginStart="14dp"/>
+
+
+           <TextView
+               android:id="@+id/txt_pickup"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+              android:text="Pickup"
+              android:textAllCaps="false"
+              android:textColor="#76FF73"
+              android:textSize="12sp"
+              android:textStyle="bold"
+               app:layout_constraintStart_toStartOf="@id/txt_liveDelivery"
+               app:layout_constraintTop_toBottomOf="@id/txt_liveDelivery"
+               android:layout_marginBottom="2dp"/>
+
+         <TextView
+             android:id="@+id/sd_138B"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="SD-138B, Ahinsa Khand 1..."
+             android:textStyle="bold"
+             android:textSize="12sp"
+             android:textColor="@color/white"
+             android:textAllCaps="false"
+             app:layout_constraintTop_toBottomOf="@id/txt_liveDelivery"
+             app:layout_constraintStart_toEndOf="@id/txt_pickup"
+             android:layout_marginStart="4dp"/>
+
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:background="@drawable/live_drawable"
+           android:text="LIVE"
+           android:textColor="@color/black"
+           android:textSize="10sp"
+           android:textStyle="bold"
+           android:paddingHorizontal="12dp"
+           android:layout_marginEnd="15dp"
+           android:layout_marginTop="19dp"
+           android:paddingVertical="2dp"
+            app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintTop_toTopOf="parent"
+        />
+
+   </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/map_view"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/constraintLayout_scooter"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

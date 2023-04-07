@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DADADA"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+      <androidx.constraintlayout.widget.ConstraintLayout
+          android:layout_width="match_parent"
+          android:layout_height="@dimen/_300sdp"
+          android:background="@color/white"
+          app:layout_constraintBottom_toBottomOf="parent">
+
+            <TextView
+                android:id="@+id/txt_please_wait"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_22sdp"
+                android:layout_marginStart="@dimen/_22sdp"
+                android:text="Please wait we are searching riders for you."
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <ImageView
+                android:id="@+id/logo_handover"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                  android:src="@drawable/logo2_01_1__2_"
+                  app:layout_constraintTop_toBottomOf="@id/txt_please_wait"
+                  app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginTop="@dimen/_10sdp"/>
+
+            <ImageView
+                android:id="@+id/img_timmer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                  android:src="@drawable/group_33728"
+                android:layout_marginStart="@dimen/_30sdp"
+                android:layout_marginTop="@dimen/_40sdp"
+                app:layout_constraintStart_toStartOf="@id/logo_handover"
+                app:layout_constraintTop_toBottomOf="@id/logo_handover"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_3sdp"
+                android:text="03:29 mins"
+                android:textAllCaps="false"
+                android:textColor="#0F6FB5"
+                android:textSize="14sp"
+                app:layout_constraintStart_toEndOf="@id/img_timmer"
+                app:layout_constraintTop_toTopOf="@id/img_timmer" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/constraintLayout3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_18sdp"
+                android:layout_marginBottom="@dimen/_25sdp"
+                android:background="@drawable/cancle_delivery"
+                app:layout_constraintBottom_toBottomOf="parent"
+                tools:layout_editor_absoluteX="23dp">
+
+                  <TextView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:paddingVertical="@dimen/_12sdp"
+                      android:text="Cancel Delivery"
+                      android:textAllCaps="false"
+                      android:textColor="@color/black"
+                      android:textSize="14sp"
+                      android:textStyle="bold"
+                      app:layout_constraintBottom_toBottomOf="parent"
+                      app:layout_constraintEnd_toEndOf="parent"
+                      app:layout_constraintStart_toStartOf="parent"
+                      app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+      </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+      </androidx.constraintlayout.widget.ConstraintLayout>
