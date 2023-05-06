@@ -4,25 +4,35 @@
     <string name="text1"><font color="#494949">I have read the </font><font color="#0F6FB5">T&amp;Cs</font><font color="#494949"> of Handover</font> </string>
 
 
-    <string name="splash_screen">
-
-
-        <font color="#0000000"> <b>No monthly fixed cost</b>  of </font><font color="#000000"> \n    delivery person &amp;vehicle.</font>
-
-    </string>
-
-    <string name="home_screen2">
-
-         <font color="#0000000"> <b>No commission /margin fee</b></font><font color="#000000">\n  on your orders</font>
-
-
-    </string>
-
-    <string name="home_screen3"><font color="#0000000"> <b>On-time order delivery,</b> you </font><font color="#000000">\n             just focus on your business.</font></string>
+    <string name="splash_screen"><font color="#0000000"> <b>No monthly fixed cost</b>  of </font><font color="#000000"> \n    delivery person &amp;vehicle.</font></string>
+    <string name="home_screen2"> <font color="#0000000"> <b>No commission /margin fee</b></font><font color="#000000">\n  on your orders</font> </string>
+    <string name="home_screen"> <font color="#0000000"> <b>No commission /margin fee</b></font><font color="#000000">\n  on your orders</font></string>
+    <string name="home_screen1"><font color="#0000000"> <b>No monthly fixed cost</b></font><font color="#000000"> of \ndelivery person &amp; vehicle.</font> </string>
+    <string name="home_screen3"><font color="#0000000"> <b>On-time order delivery,</b> you </font><font color="#000000">\n just focus on your business.</font></string>
 
     <string name="rs_200"><font color="#969696">₹</font><font color="#000000">200</font></string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string-array name="month">
+        <item>january</item>
+        <item>january</item>
+        <item>january</item>
+        <item>january</item>
+        <item>january</item>
+        <item>january</item>
+        <item>january</item>
+        <item>january</item>
+        <item>january</item>
+        <item>january</item>
+        <item>january</item>
+        <item>january</item>
+        <item>january</item>
+        <item>january</item>
+        <item>january</item>
+        <item>january</item>
+    </string-array>
 
 
     <string name="text"><font color="#494949">I have read the </font><font color="#0F6FB5">T&amp;Cs</font><font color="#494949"> of Handover</font> </string>
@@ -123,6 +133,9 @@
     <string name="enter_a_number">Enter a number</string>
     <string name="mobile_number_nverification">Mobile Number \nVerification</string>
     <string name="verify">Verify</string>
+    <string name="Verified">Verified</string>
+    <string name="Bank_Details">Bank_Details</string>
+
 
 
 

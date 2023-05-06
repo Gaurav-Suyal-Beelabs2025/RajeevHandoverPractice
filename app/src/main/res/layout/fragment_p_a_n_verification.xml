@@ -8,6 +8,7 @@
 
 
     <androidx.core.widget.NestedScrollView
+
         android:layout_width="match_parent"
         android:layout_height="0dp"
         app:layout_constraintBottom_toTopOf="@+id/submit_btn"
@@ -19,18 +20,29 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
+
+            <ImageView
+                android:id="@+id/img_arrowback"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/arrowback"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"/>
+
             <TextView
                 android:id="@+id/pan_txt"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/_15sdp"
-                android:layout_marginTop="@dimen/_25sdp"
                 android:fontFamily="@font/inter_bold"
                 android:text="PAN \nVerification"
                 android:textColor="@color/black"
                 android:textSize="32dp"
+                android:layout_marginTop="@dimen/_15sdp"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                 app:layout_constraintTop_toBottomOf="@id/img_arrowback" />
 
 
             <EditText

@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".VehicleDetailsFragment">
 
@@ -38,7 +39,7 @@
             app:layout_constraintTop_toTopOf="parent"
             android:layout_marginBottom="23dp"
             app:layout_constraintStart_toStartOf="parent"
-            android:src="@drawable/group_33831"/>
+            android:src="@drawable/arrowback"/>
 
         <TextView
             android:id="@+id/txt_vehicle"

@@ -26,17 +26,17 @@
           app:layout_constraintStart_toStartOf="parent"
           app:layout_constraintTop_toTopOf="parent" />
 
-
-      <Switch
-          android:id="@+id/awitch_onduty"
-          android:layout_width="wrap_content"
-          android:layout_height="wrap_content"
-          android:paddingHorizontal="10dp"
-          android:text="on duty"
-          app:layout_constraintEnd_toEndOf="parent"
-          app:layout_constraintStart_toStartOf="parent"
-          app:layout_constraintTop_toTopOf="@id/img_notification" />
-
+       <androidx.appcompat.widget.SwitchCompat
+           android:id="@+id/switchbutton"
+           android:layout_width="@dimen/_80sdp"
+           android:layout_height="wrap_content"
+           android:checked="true"
+           android:thumb="@drawable/thumb"
+           app:track="@drawable/track"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintBottom_toBottomOf="@id/img_notification"
+           app:layout_constraintTop_toTopOf="@id/img_notification"/>
       <ImageView
           android:id="@+id/img_profile"
           android:layout_width="39dp"
@@ -50,35 +50,34 @@
           app:layout_constraintEnd_toEndOf="parent"
           app:layout_constraintTop_toTopOf="@id/img_notification" />
 
-      <TextView
-          android:id="@+id/txt_ActiveTime"
-          android:layout_width="wrap_content"
-          android:layout_height="wrap_content"
-          android:layout_marginStart="59dp"
-          android:layout_marginTop="5dp"
-          android:layout_marginBottom="11dp"
-          android:text="Active Time"
-          android:textAllCaps="false"
-          android:textColor="@color/black"
-          android:textSize="12sp"
-          android:textStyle="bold"
-          app:layout_constraintBottom_toBottomOf="parent"
-          app:layout_constraintStart_toEndOf="@+id/img_notification"
-          app:layout_constraintTop_toBottomOf="@id/awitch_onduty" />
+       <TextView
+           android:id="@+id/txt_ActiveTime"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="2dp"
+           android:layout_marginBottom="11dp"
+           android:text="Active Time"
+           android:textAllCaps="false"
+           android:textColor="@color/black"
+           android:textSize="12sp"
+           android:textStyle="bold"
+           app:layout_constraintBottom_toBottomOf="parent"
+           app:layout_constraintStart_toStartOf="@+id/switchbutton"
+           app:layout_constraintTop_toBottomOf="@id/switchbutton" />
 
-      <TextView
-          android:layout_width="wrap_content"
-          android:layout_height="wrap_content"
-          android:layout_marginStart="3dp"
-          android:text="2hrs 16min"
-          android:textAllCaps="false"
-          android:textColor="#0F6FB5"
-          android:textSize="12sp"
-          android:textStyle="bold"
-
-          app:layout_constraintBottom_toBottomOf="@id/txt_ActiveTime"
-          app:layout_constraintStart_toEndOf="@id/txt_ActiveTime"
-          app:layout_constraintTop_toTopOf="@id/txt_ActiveTime" />
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginStart="2dp"
+           android:text="2hrs 16min"
+           android:textAllCaps="false"
+           android:textColor="#0F6FB5"
+           android:textSize="12sp"
+           android:textStyle="bold"
+           app:layout_constraintBottom_toBottomOf="@id/txt_ActiveTime"
+           app:layout_constraintStart_toEndOf="@id/txt_ActiveTime"
+           app:layout_constraintTop_toTopOf="@id/txt_ActiveTime"
+           app:layout_constraintVertical_bias="0.0" />
 
    </androidx.constraintlayout.widget.ConstraintLayout>
 

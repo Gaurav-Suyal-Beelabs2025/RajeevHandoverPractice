@@ -1,6 +1,7 @@
 package com.example.handhoverpractice
 
-import androidx.appcompat.app.AppCompatActivity
+
+  import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.view.View
@@ -14,7 +15,7 @@ import androidx.navigation.ui.setupWithNavController
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import java.lang.Exception
 
-class MainActivity : AppCompatActivity() {
+  class MainActivity : AppCompatActivity() {
 
 //    lateinit var bottomNav : BottomNavigationView
 
@@ -38,9 +39,35 @@ class MainActivity : AppCompatActivity() {
                bottomNavigationView.visibility=View.GONE
            }
 
+           else if (destination.id==R.id.profileFragment){
+               bottomNavigationView.visibility=View.GONE
+           }
+
+           else if (destination.id==R.id.rcVerificationFragment){
+               bottomNavigationView.visibility=View.GONE
+           }
+           else if (destination.id==R.id.drivingLicenceVerificationFragment){
+               bottomNavigationView.visibility=View.GONE
+           }
+
+
            else if (destination.id==R.id.documentdetailsFragment){
                bottomNavigationView.visibility=View.GONE
            }
+
+           else if (destination.id==R.id.applanguageFragment){
+               bottomNavigationView.visibility=View.GONE
+           }
+
+           else if (destination.id==R.id.notificationlanguageFragment){
+               bottomNavigationView.visibility=View.GONE
+           }
+
+           else if (destination.id==R.id.yourserviceFragment){
+               bottomNavigationView.visibility=View.GONE
+           }
+
+
 
            else{
 
@@ -52,38 +79,3 @@ class MainActivity : AppCompatActivity() {
     }
 
 }
-
-//        loadFragment(HomeFragment())
-//        bottomNav = findViewById(R.id.nav_botton) as BottomNavigationView
-//        bottomNav.setOnItemSelectedListener {
-//            when  (it.itemId) {
-//                R.id.ic_home -> {
-//                    loadFragment(HomeFragment())
-//                    true
-//                }
-//                R.id.ic_Earnings -> {
-//                    loadFragment(EarningsFragment())
-//                    true
-//                }
-//                R.id.ic_Payout -> {
-//                    loadFragment(PayoutFragment())
-//                    true
-//                }
-//                R.id.ic_Support -> {
-//                    loadFragment(SupportFragment())
-//                    true
-//                }
-//
-//                else -> {
-//                    false
-//                }
-//            }
-//        }
-//    }
-//    private  fun loadFragment(fragment: Fragment){
-//        val transaction = supportFragmentManager.beginTransaction()
-//        transaction.replace(R.id.container,fragment)
-//        transaction.commit()
-//    }
-//
-//}

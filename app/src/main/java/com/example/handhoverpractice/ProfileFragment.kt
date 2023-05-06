@@ -26,7 +26,6 @@ class ProfileFragment : Fragment() {
          val Vehicledetails=view.findViewById<ConstraintLayout>(R.id.constraintLayout_Vehicle)
          val WorkinMode=view.findViewById<ConstraintLayout>(R.id.constraintLayout_Working_mode)
 
-
          Handoveridcard.setOnClickListener {
 
              Navigation.findNavController(view).navigate(R.id.profileidcardFragment)

@@ -23,50 +23,53 @@
        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
 
+
     <ImageView
-        android:layout_width="@dimen/_150sdp"
-        android:layout_height="@dimen/_150sdp"
-        android:src="@drawable/_9119019_arrows_around_wallet_with_money_3d_cartoon_style_icon__converted__1"
-        app:layout_constraintStart_toStartOf="parent"
+        android:id="@+id/imageView4"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_200sdp"
+        android:src="@drawable/scooter_man"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout2"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="@dimen/_17sdp"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt_skip" />
 
-
     <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/group_34059"
-        app:layout_constraintBottom_toBottomOf="parent">
+        android:paddingVertical="@dimen/_120sdp"
+        app:layout_constraintBottom_toBottomOf="parent" />
 
 
-        <TextView
-            android:id="@+id/On_Time"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:padding="0dp"
-            android:text="@string/home_screen2"
-            android:textAllCaps="false"
-            android:layout_marginTop="@dimen/_20sdp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/On_Time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/home_screen2"
+        android:textAllCaps="false"
+        android:layout_marginBottom="@dimen/_12sdp"
+        app:layout_constraintBottom_toTopOf="@+id/appCompatButton3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
-
-        <androidx.appcompat.widget.AppCompatButton
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/_50sdp"
-            android:background="@drawable/next_button"
-            android:text="Next"
-            android:textAllCaps="false"
-            android:textSize="15sp"
-            android:textColor="@color/white"
-            android:textAlignment="center"
-            app:layout_constraintTop_toBottomOf="@+id/On_Time"
-            app:layout_constraintBottom_toBottomOf="parent"
-            android:layout_marginBottom="@dimen/_15sdp"
-            android:layout_marginHorizontal="@dimen/_15sdp"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/appCompatButton3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_15sdp"
+        android:layout_marginBottom="@dimen/_15sdp"
+        android:background="@drawable/next_button"
+        android:paddingVertical="@dimen/_7sdp"
+        android:text="Next"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="19dp" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -77,4 +80,3 @@
 
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>

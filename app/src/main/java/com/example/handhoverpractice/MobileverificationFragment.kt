@@ -21,7 +21,8 @@ class MobileverificationFragment : Fragment() {
         val view=inflater.inflate(R.layout.fragment_mobileverification, container, false)
 
 
-        val Verify=view.findViewById<Button>(R.id.appbutton_verify)
+        //changes
+        val Verify=view.findViewById<Button>(R.id.submit_btn)
 
 
         Verify.setOnClickListener {

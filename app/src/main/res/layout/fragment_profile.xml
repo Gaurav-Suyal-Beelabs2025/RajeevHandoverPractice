@@ -31,7 +31,7 @@
             android:id="@+id/img_arrowback"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/group_33831"
+            android:src="@drawable/arrowback"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             android:layout_marginTop="21dp"
@@ -42,8 +42,7 @@
                android:layout_width="wrap_content"
                android:layout_height="wrap_content"
                android:text="My Profile"
-               android:textStyle="bold"
-               android:textSize="24sp"
+                android:textSize="24sp"
                android:textColor="@color/black"
                android:textAllCaps="false"
                app:layout_constraintTop_toTopOf="@id/img_arrowback"
@@ -73,64 +72,76 @@
                   app:layout_constraintBottom_toBottomOf="@id/img_help"
                   app:layout_constraintStart_toEndOf="@id/img_help"
                   android:layout_marginStart="6dp"/>
+     <androidx.constraintlayout.widget.ConstraintLayout
+         android:id="@+id/img_constantlayout"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="@dimen/_10sdp"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintTop_toBottomOf="@+id/txt_profile">
 
 
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/img_rajeev"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="@dimen/_70sdp"
+            android:layout_height="@dimen/_70sdp"
             android:src="@drawable/whatsapp_image_2023_03_17_at_15_07_24"
-            app:layout_constraintTop_toBottomOf="@+id/txt_profile"
-             android:layout_marginTop="20dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"/>
+           app:layout_constraintTop_toTopOf="parent"
+             app:layout_constraintEnd_toEndOf="parent"/>
 
 
 
 
-        <TextView
-            android:id="@+id/txt_rajeev"
+     </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <LinearLayout
+            android:id="@+id/profile_lay"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="13dp"
-            android:text="Rajeev Ranjan"
-            android:textAllCaps="false"
-            android:textColor="@color/black"
-            android:textSize="16sp"
-            android:textStyle="bold"
-            app:layout_constraintStart_toStartOf="@+id/img_rajeev"
-            app:layout_constraintTop_toBottomOf="@id/img_rajeev" />
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="@+id/img_constantlayout"
+            app:layout_constraintStart_toStartOf="@+id/img_constantlayout"
+            app:layout_constraintTop_toBottomOf="@id/img_constantlayout">
+
             <TextView
+                android:id="@+id/txt_rajeev"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="."
-                android:textStyle="bold"
-                android:textColor="#D9D9D9"
-                android:layout_marginStart="3dp"
-                app:layout_constraintStart_toEndOf="@id/txt_rajeev"
-                app:layout_constraintTop_toTopOf="@id/txt_rajeev"
-                app:layout_constraintBottom_toBottomOf="@id/txt_rajeev"/>
+                android:text="Rajeev Ranjan"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
 
-          <TextView
-              android:id="@+id/txt_bike_rider"
-              android:layout_width="wrap_content"
-              android:layout_height="wrap_content"
-              android:text="Bike Rider"
-              android:textColor="#686868"
-              android:textStyle="bold"
-              android:textSize="14sp"
-              android:textAllCaps="false"
-              app:layout_constraintTop_toTopOf="@id/txt_rajeev"
-              app:layout_constraintStart_toEndOf="@id/txt_rajeev"
-              app:layout_constraintBottom_toBottomOf="@id/txt_rajeev"
-              android:layout_marginStart="10dp"/>
+            <TextView
+                android:id="@+id/txt_."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="3dp"
+                android:text="."
+                android:textColor="#D9D9D9"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_bike_rider"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="Bike Rider"
+                android:textAllCaps="false"
+                android:textColor="#686868"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:layout_constraintEnd_toEndOf="@id/txt_bike_rider"
-            app:layout_constraintStart_toStartOf="@id/txt_rajeev"
-            app:layout_constraintTop_toBottomOf="@id/txt_rajeev">
+            app:layout_constraintEnd_toEndOf="@id/profile_lay"
+            app:layout_constraintStart_toStartOf="@id/profile_lay"
+            app:layout_constraintTop_toBottomOf="@id/profile_lay">
 
 
             <TextView
@@ -178,8 +189,7 @@
              android:layout_width="wrap_content"
              android:layout_height="wrap_content"
              android:text="4.4 ⭐️"
-             android:textStyle="bold"
-             android:textSize="20sp"
+              android:textSize="20sp"
              android:textColor="#000000"
              android:textAllCaps="false"
              app:layout_constraintTop_toTopOf="parent"
@@ -194,8 +204,7 @@
                android:textAllCaps="false"
                android:textColor="#000000"
                android:textSize="12sp"
-               android:textStyle="bold"
-               app:layout_constraintStart_toStartOf="@id/txt_4.4"
+                app:layout_constraintStart_toStartOf="@id/txt_4.4"
                app:layout_constraintTop_toBottomOf="@id/txt_4.4"/>
 
 
@@ -214,8 +223,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="64"
-            android:textStyle="bold"
-            android:textSize="20sp"
+             android:textSize="20sp"
             android:textColor="#000000"
             android:textAllCaps="false"
             app:layout_constraintTop_toTopOf="parent"
@@ -231,8 +239,7 @@
             android:textAllCaps="false"
             android:textColor="#000000"
             android:textSize="12sp"
-            android:textStyle="bold"
-            app:layout_constraintStart_toStartOf="@id/txt_64"
+             app:layout_constraintStart_toStartOf="@id/txt_64"
             app:layout_constraintTop_toBottomOf="@id/txt_64"/>
 
 
@@ -253,8 +260,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="12"
-            android:textStyle="bold"
-            android:textSize="20sp"
+             android:textSize="20sp"
             android:textColor="#000000"
             android:textAllCaps="false"
             app:layout_constraintTop_toTopOf="parent"
@@ -270,8 +276,7 @@
             android:textAllCaps="false"
             android:textColor="#000000"
             android:textSize="12sp"
-            android:textStyle="bold"
-            app:layout_constraintStart_toStartOf="@id/txt_12"
+             app:layout_constraintStart_toStartOf="@id/txt_12"
             app:layout_constraintTop_toBottomOf="@id/txt_12"/>
 
 
@@ -281,7 +286,7 @@
          android:id="@+id/constraintLayout_hndovrid"
          android:layout_width="match_parent"
          android:layout_height="wrap_content"
-         android:layout_marginTop="25dp"
+         android:layout_marginTop="@dimen/_10sdp"
          app:layout_constraintTop_toBottomOf="@id/constraintLayout_ratin4.4">
 
            <ImageView
@@ -301,7 +306,6 @@
                android:layout_width="wrap_content"
                android:layout_height="wrap_content"
                android:text="Handover Id Card"
-               android:textStyle="bold"
                android:textSize="14sp"
                android:textColor="@color/black"
                android:textAllCaps="false"
@@ -336,7 +340,7 @@
         android:id="@+id/constraintLayout_documents"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="@dimen/_10sdp"
         app:layout_constraintTop_toBottomOf="@id/constraintLayout_hndovrid">
 
         <ImageView
@@ -356,8 +360,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Documents &amp; Details"
-            android:textStyle="bold"
-            android:textSize="14sp"
+             android:textSize="14sp"
             android:textColor="@color/black"
             android:textAllCaps="false"
             android:layout_marginStart="20dp"
@@ -390,7 +393,7 @@
         android:id="@+id/constraintLayout_myperformance"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="@dimen/_10sdp"
         app:layout_constraintTop_toBottomOf="@id/constraintLayout_documents">
 
         <ImageView
@@ -410,8 +413,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="My Performance"
-            android:textStyle="bold"
-            android:textSize="14sp"
+             android:textSize="14sp"
             android:textColor="@color/black"
             android:textAllCaps="false"
             android:layout_marginStart="20dp"
@@ -444,7 +446,7 @@
         android:id="@+id/constraintLayout_yourservice"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="@dimen/_10sdp"
         app:layout_constraintTop_toBottomOf="@id/constraintLayout_myperformance">
 
         <ImageView
@@ -464,8 +466,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Your Services"
-            android:textStyle="bold"
-            android:textSize="14sp"
+             android:textSize="14sp"
             android:textColor="@color/black"
             android:textAllCaps="false"
             android:layout_marginStart="20dp"
@@ -499,7 +500,7 @@
                 android:id="@+id/constraintLayout_language"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="25dp"
+                android:layout_marginTop="@dimen/_10sdp"
                 app:layout_constraintTop_toBottomOf="@id/constraintLayout_yourservice">
 
                 <ImageView
@@ -519,8 +520,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Language Settings"
-                    android:textStyle="bold"
-                    android:textSize="14sp"
+                     android:textSize="14sp"
                     android:textColor="@color/black"
                     android:textAllCaps="false"
                     android:layout_marginStart="20dp"
@@ -555,7 +555,7 @@
                 android:id="@+id/constraintLayout_Vehicle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="25dp"
+                android:layout_marginTop="@dimen/_10sdp"
                 app:layout_constraintTop_toBottomOf="@id/constraintLayout_language">
 
                 <ImageView
@@ -575,8 +575,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Vehicle Details"
-                    android:textStyle="bold"
-                    android:textSize="14sp"
+                     android:textSize="14sp"
                     android:textColor="@color/black"
                     android:textAllCaps="false"
                     android:layout_marginStart="20dp"
@@ -603,6 +602,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="25dp"
+                android:layout_marginBottom="@dimen/_50sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/constraintLayout_Vehicle">
 
                 <ImageView
@@ -621,8 +622,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text=" Working Mode"
-                    android:textStyle="bold"
-                    android:textSize="14sp"
+                     android:textSize="14sp"
                     android:textColor="@color/black"
                     android:textAllCaps="false"
                     android:layout_marginStart="20dp"
@@ -644,48 +644,49 @@
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
-           <androidx.constraintlayout.widget.ConstraintLayout
-               android:layout_width="match_parent"
-               android:layout_height="53dp"
-               android:id="@+id/constraintLayout_logout"
-               android:background="@drawable/logout"
-               app:layout_constraintBottom_toBottomOf="parent"
-               android:layout_marginBottom="100dp"
-               android:layout_marginTop="45dp"
-               android:layout_marginHorizontal="14dp"
-               app:layout_constraintTop_toBottomOf="@id/constraintLayout_Working_mode">
-
-               <ImageView
-                   android:layout_width="wrap_content"
-                   android:layout_height="wrap_content"
-                   android:src="@drawable/path14971"
-                   app:layout_constraintEnd_toStartOf="@id/text_logout"
-                   app:layout_constraintTop_toTopOf="parent"
-                   android:layout_marginEnd="7dp"
-                   app:layout_constraintBottom_toBottomOf="parent"
-                   />
-
-                    <TextView
-                        android:id="@+id/text_logout"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Logout"
-                        android:textStyle="bold"
-                        android:textSize="14sp"
-                        android:textColor="#E00E0E"
-                        android:textAllCaps="false"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:layout_constraintBottom_toBottomOf="parent"/>
-
-           </androidx.constraintlayout.widget.ConstraintLayout>
-
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
 
       </androidx.core.widget.NestedScrollView>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:id="@+id/constraintLayout_logout"
+        android:background="@drawable/logout"
+         android:layout_marginBottom="@dimen/_10sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginHorizontal="14dp"
+       >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/path14971"
+            app:layout_constraintEnd_toStartOf="@id/text_logout"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginEnd="7dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            />
+
+        <TextView
+            android:id="@+id/text_logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:textColor="#E00E0E"
+            android:textAllCaps="false"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
